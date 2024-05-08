@@ -27,8 +27,8 @@ export default function Login() {
     <div className="flex min-h-[100dvh] w-full items-center justify-center bg-gradient-to-b from-black to-gray-500 px-4 py-12 md:px-6 lg:py-24">
       <div className="mx-auto flex w-full max-w-[70vw] flex-col items-center justify-between gap-8 rounded-xl bg-white p-6 shadow-lg md:flex-row md:p-12">
         <div className="flex-1 space-y-4">
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
-            Welcome to MedCare
+          <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl w-[25vw]">
+            Welcome to Medi-Connect
           </h1>
           <p className="text-lg text-gray-600">Providing exceptional healthcare services to our community.</p>
           <div className="relative group">
