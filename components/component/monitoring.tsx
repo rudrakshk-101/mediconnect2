@@ -24,37 +24,26 @@ export default function Monitoring() {
     <div className="flex flex-col h-screen">
       <header className="bg-gray-900 text-white p-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <img
-            alt="Patient Avatar"
-            className="rounded-full"
-            height="40"
-            src="/placeholder.svg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width="40"
-          />
+         
           <div>
             <h1 className="text-lg font-medium">John Doe</h1>
             <p className="text-sm text-gray-400">Age: 45</p>
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
-            <WatchIcon className="w-6 h-6" />
-            <p className="text-sm">On Wrist</p>
-          </div>
+          
           <div className="flex items-center gap-2">
             <ClockIcon className="w-6 h-6" />
-            <p className="text-sm">Last updated: 5 min ago</p>
+            <p className="text-sm">Last updated: Just Now</p>
           </div>
         </div>
       </header>
       <main className="flex-1 grid grid-cols-3 gap-6 p-6">
-      <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center ">
-          <h2 className="text-xl font-bold mb-2 text-black">Connected</h2>
-          <div className="text-3xl font-bold text-green-500">Yes</div>
+      <div className="bg-gray-500 rounded-lg shadow-md p-6 flex flex-col items-center justify-center ">
+      
+          <h2 className="text-xl font-bold mb-2 text-white">Wrist Band</h2>
+          <WatchIcon className="w-6 h-6 bg-gray-500" />
+          <div className="text-3xl font-bold text-green-500">Connected</div>
         </div>
         <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center ">
           <h2 className="text-xl font-bold mb-2 text-black">Pulse Rate</h2>
@@ -175,23 +164,23 @@ function LineChart(props) {
           {
             id: "Desktop",
             data: [
-              { x: "Jan", y: 43 },
-              { x: "Feb", y: 137 },
-              { x: "Mar", y: 61 },
-              { x: "Apr", y: 145 },
-              { x: "May", y: 26 },
-              { x: "Jun", y: 154 },
+              { x: "00:01", y: 75 },
+              { x: "00:02", y: 70 },
+              { x: "00:03", y: 72 },
+              { x: "00:04", y: 69 },
+              { x: "00:05", y: 75 },
+              { x: "00:06", y: 82 },
             ],
           },
           {
             id: "Mobile",
             data: [
-              { x: "Jan", y: 60 },
-              { x: "Feb", y: 48 },
-              { x: "Mar", y: 177 },
-              { x: "Apr", y: 78 },
-              { x: "May", y: 96 },
-              { x: "Jun", y: 204 },
+              { x: "00:01", y: 62 },
+              { x: "00:02", y: 95 },
+              { x: "00:03", y: 59 },
+              { x: "00:04", y: 89 },
+              { x: "00:05", y:  65},
+              { x: "00:06", y: 79},
             ],
           },
         ]}
