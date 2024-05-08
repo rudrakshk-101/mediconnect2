@@ -24,8 +24,8 @@ import { Input } from "@/components/ui/input"
 
 export default function Login() {
   return (
-    <div className="flex min-h-[100dvh] w-full items-center justify-center bg-gradient-to-r from-[#0077B6] to-[#00A8E8] px-4 py-12 md:px-6 lg:py-24">
-      <div className="mx-auto flex w-full max-w-[900px] flex-col items-center justify-between gap-8 rounded-xl bg-white p-6 shadow-lg md:flex-row md:p-12">
+    <div className="flex min-h-[100dvh] w-full items-center justify-center bg-gradient-to-b from-black to-gray-500 px-4 py-12 md:px-6 lg:py-24">
+      <div className="mx-auto flex w-full max-w-[70vw] flex-col items-center justify-between gap-8 rounded-xl bg-white p-6 shadow-lg md:flex-row md:p-12">
         <div className="flex-1 space-y-4">
           <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
             Welcome to MedCare
@@ -54,8 +54,8 @@ export default function Login() {
             </div>
           </div>
         </div>
-        <div className="flex-1 space-y-4">
-          <Card className="w-full max-w-md bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg dark:border-gray-800">
+        <div className="flex-1 space-y-4 ">
+          <Card className="w-[25vw] h-[60vh]  ml-[3vw] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg dark:border-gray-800">
             <CardHeader className="space-y-1 p-6">
               <CardTitle className="text-2xl font-bold">Login to your account</CardTitle>
               <CardDescription className="text-gray-500 dark:text-gray-400">
@@ -88,7 +88,7 @@ export default function Login() {
             </CardContent>
             <CardFooter className="p-6">
               <Button
-                className="w-full animate-[bounce_1s_ease-in-out] hover:animate-[bounce_1s_ease-in-out] hover:scale-105 transition-transform duration-300 ease-in-out"
+                className="w-full bg-gray-700 animate-[bounce_1s_ease-in-out] hover:animate-[bounce_1s_ease-in-out] hover:scale-105 transition-transform duration-300 ease-in-out"
                 variant="primary"
               >
                 Login
