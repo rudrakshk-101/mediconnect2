@@ -14,10 +14,7 @@ export function Chatting() {
           <div className="grid gap-1">
             <div className="flex items-center gap-2">
               <h1
-                className="max-w-[150px] bg-transparent font-medium focus:outline-none text-white"
-                
-                
-              >
+                className="max-w-[150px] bg-transparent font-medium focus:outline-none text-white">
                 Dr. Raghu Parmar </h1>
             </div>
             <p className="text-sm text-gray-300">@dr.Raghu</p>

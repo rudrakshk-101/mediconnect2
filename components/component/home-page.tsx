@@ -207,6 +207,45 @@ export function HomePage() {
           </div>
         </div>
         <div className="space-y-6">
+        <Card>
+            <CardHeader>
+              <CardTitle>Trending Diseases</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">125k Patients world wide</p>
+                    <p className="text-base font-medium">COVID - 19</p>
+                  </div>
+                  <Button className="rounded-full" size="icon" variant="ghost">
+                    <EllipsisVerticalIcon className="h-5 w-5" />
+                    <span className="sr-only">More</span>
+                  </Button>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">100k Patients world wide</p>
+                    <p className="text-base font-medium">Malaria</p>
+                  </div>
+                  <Button className="rounded-full" size="icon" variant="ghost">
+                    <EllipsisVerticalIcon className="h-5 w-5" />
+                    <span className="sr-only">More</span>
+                  </Button>
+                </div>
+                <div className="flex items-center justify-between">
+                  <div className="space-y-1">
+                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">87k Patients world wide</p>
+                    <p className="text-base font-medium">Cancer</p>
+                  </div>
+                  <Button className="rounded-full" size="icon" variant="ghost">
+                    <EllipsisVerticalIcon className="h-5 w-5" />
+                    <span className="sr-only">More</span>
+                  </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
           <Card>
             <CardHeader>
               <CardTitle>Doctors</CardTitle>
