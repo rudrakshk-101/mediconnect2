@@ -14,7 +14,7 @@ export function HomePage() {
         <div className="container mx-auto flex h-14 max-w-6xl items-center justify-between px-4 md:px-6">
           <Link className="flex items-center gap-2" href="#">
             
-            <span className="font-bold text-green-500">HealthChain</span>
+            <span className="font-bold text-green-500">MediConnect  </span>
           </Link>
           <nav className="hidden space-x-4 md:flex">
             <Link
