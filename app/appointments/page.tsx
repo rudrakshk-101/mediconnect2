@@ -13,8 +13,10 @@ import {
     ListItemText,
     Typography,
 } from '@mui/material';
+import Loader from "@/components/component/loader";
 
 export default function Page() {
+    const [dialog,setDialog] = useState(false);
     const [currentEvents, setCurrentEvents] = useState([]);
     const handleDateClick = (selected) => {
         const title = prompt("Please enter a new title for event");
@@ -28,6 +30,7 @@ export default function Page() {
                 end: selected.sendStr,
                 allDay: selected.allDay
             });
+            setDialog(true);
         }
     };
 
@@ -43,6 +46,7 @@ export default function Page() {
 
     return (
         <Box m="20px">
+            {dialog? <Loader /> : <></>}
             <Header title="Appointments" subtitle="Live Appointment System" />
 
             <Box display={'flex'} justifyContent={'space-between'}>

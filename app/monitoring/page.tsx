@@ -14,7 +14,7 @@ export default function Page() {
  useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://192.168.57.57/dustbin",{
+        const response = await fetch("http://192.168.42.57/dustbin",{
           method: "GET"
         });
         const data = await response.json();

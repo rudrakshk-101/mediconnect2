@@ -35,16 +35,16 @@ export default function SignUp() {
               alt="Healthcare Hero"
               className="mx-auto rounded-lg object-cover md:mx-0 group-hover:scale-105 transition-transform duration-300 ease-in-out"
               height={400}
-              src="/placeholder.svg"
+              src="/form.png"
               style={{
                 aspectRatio: "500/400",
                 objectFit: "cover",
               }}
               width={500}
             />
-            <div className="absolute inset-0 bg-black/50 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center">
+            <div className="absolute w-50 h-50 inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out flex items-center justify-center">
               <Button
-                className="animate-bounce hover:scale-105 transition-transform duration-300 ease-in-out"
+                className="hover:scale-105 text-black font-bold text-3xl transition-transform duration-300 ease-in-out"
                 size="lg"
                 variant={'primary'}
               >
@@ -54,7 +54,7 @@ export default function SignUp() {
           </div>
         </div>
         <div className="flex-1 space-y-4 ">
-          <Card className="w-[25vw] h-[60vh]  ml-[3vw] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg dark:border-gray-800">
+          <Card className="w-[25vw] h-[65vh]  ml-[3vw] bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-lg dark:border-gray-800">
             <CardHeader className="space-y-1 p-6">
               <CardTitle className="text-2xl font-bold">Create a new account</CardTitle>
               <CardDescription className="text-gray-500 dark:text-gray-400">

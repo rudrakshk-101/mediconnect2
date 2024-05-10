@@ -94,9 +94,10 @@ export function HomePage() {
                 
                 <div className="flex items-center gap-2">
                 <button className="bg-gray-900 w-[10vw] h-8 rounded-xl border border-white">
-                Avg. Price - $20
+                Avg. Price - ₹200
                 </button>
                   <Button className="rounded-full" size="icon" onClick={() => {
+                    localStorage.setItem('chat',"Dr. Raghu Parmar");
                     router.push('/chatting');
                   }} variant="ghost">
                     <MessageCircleIcon className="h-5 w-5" />
@@ -124,9 +125,12 @@ export function HomePage() {
                 </div>
                 <p>Get Home delivery of medicines </p>
                 <div className="flex items-center gap-2">
-                
+                <button className="bg-gray-900 w-[10vw] h-8 rounded-xl border border-white">
+                Avg. Price - ₹230
+                </button>
                 <Button className="rounded-full" size="icon" onClick={() => {
-                    router.push('/chatting');
+                                        localStorage.setItem('chat',"Jared Palmer");
+                                        router.push('/chatting');
                   }} variant="ghost">
                     <MessageCircleIcon className="h-5 w-5" />
                     <span className="sr-only">Reply</span>
@@ -154,10 +158,11 @@ export function HomePage() {
                 <p>Get Life Insurance! </p>
                 <div className="flex items-center gap-2">
                 <button className="bg-gray-900 w-[10vw] h-8 rounded-xl border border-white">
-                Avg. Price - $500
+                Avg. Price - ₹500
                 </button>
                 <Button className="rounded-full" size="icon" onClick={() => {
-                    router.push('/chatting');
+                                        localStorage.setItem('chat',"Max Lieter");
+                                        router.push('/chatting');
                   }} variant="ghost">
                     <MessageCircleIcon className="h-5 w-5" />
                     <span className="sr-only">Reply</span>
@@ -187,10 +192,11 @@ export function HomePage() {
                 </p>
                 <div className="flex items-center gap-2">
                 <button className="bg-gray-900 w-[10vw] h-8 rounded-xl border border-white">
-                Avg. Price - $25
+                Avg. Price - ₹480
                 </button>
                 <Button className="rounded-full" size="icon" onClick={() => {
-                    router.push('/chatting');
+                                      localStorage.setItem('chat',"Dr. Shu Ding");
+                                      router.push('/chatting');
                   }} variant="ghost">
                     <MessageCircleIcon className="h-5 w-5" />
                     <span className="sr-only">Reply</span>
