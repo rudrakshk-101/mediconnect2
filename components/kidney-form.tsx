@@ -100,6 +100,10 @@ export function KidneyForm() {
               <Input value={pcc} onChange={(e) => setPcc(e.target.value)} className="bg-white text-white rounded-md p-2" id="gender" placeholder="Pus Cell Clumps" required />
             </div>
           </div>
+          <div className="w-[45vh] max-w-[45vh]">
+        <Label htmlFor="pdf-upload">Upload PDF (Optional)</Label>
+        <Input accept="application/pdf" id="pdf-upload" type="file"  />
+      </div>
           <Button onClick={handleSubmit} className="w-full bg-white text-gray-400 hover:bg-gray-900 hover:text-white">Assess Risk</Button>
         </CardContent>
       </Card>
