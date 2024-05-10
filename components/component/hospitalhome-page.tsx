@@ -5,6 +5,8 @@ import { Button } from "@/components/ui/button"
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { Input } from "@/components/ui/input"
 import { CardTitle, CardHeader, CardContent, Card } from "@/components/ui/card"
+import { ResponsiveLine } from "@nivo/line"
+import Image from "next/image";
 
 export function HospitalHomePage() {
   const router = useRouter();
@@ -63,14 +65,16 @@ export function HospitalHomePage() {
         <div className="space-y-6 grid grid-cols-1">
         <Card >
             <CardHeader>
-              <CardTitle>Trending Diseases</CardTitle>
+              <CardTitle className="text-3l">Trending Diseases</CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="grid grid-cols-2">
+                <div className=" ">
               <div className="space-y-4">
-                <div className="flex items-center justify-between">
-                  <div className="space-y-1">
-                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">125k Patients world wide</p>
-                    <p className="text-base font-medium">COVID - 19</p>
+                <div className="flex items-center justify-between ">
+                  <div className="grid grid-cols-2">
+                    <h1 className="text-3xl font-bold text-yellow-400">COVID -19 </h1>
+                    <p className="text-sm font-medium text-gray-500 dark:text-white pt-2 pl-3">125k Patients world wide</p>
+                    
                   </div>
                   <Button className="rounded-full" size="icon" variant="ghost">
                     <EllipsisVerticalIcon className="h-5 w-5" />
@@ -78,9 +82,9 @@ export function HospitalHomePage() {
                   </Button>
                 </div>
                 <div className="flex items-center justify-between">
-                  <div className="space-y-1">
-                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">100k Patients world wide</p>
-                    <p className="text-base font-medium">Malaria</p>
+                  <div className="grid grid-cols-2">
+                    <h1 className="text-3xl font-bold text-blue-500">Malaria</h1>
+                    <p className="text-sm font-medium text-gray-500 dark:text-white pt-2 pl-3">100k Patients world wide</p>
                   </div>
                   <Button className="rounded-full" size="icon" variant="ghost">
                     <EllipsisVerticalIcon className="h-5 w-5" />
@@ -88,17 +92,29 @@ export function HospitalHomePage() {
                   </Button>
                 </div>
                 <div className="flex items-center justify-between">
-                  <div className="space-y-1">
-                    <p className="text-sm font-medium text-gray-500 dark:text-gray-400">87k Patients world wide</p>
-                    <p className="text-base font-medium">Cancer</p>
+                  <div className="grid grid-cols-2">
+                    <h1 className="text-3xl font-bold text-red-600">Cancer</h1>
+                    <p className="text-md font-medium text-gray-500 dark:text-white pt-2 pl-2 ">85k Patients world wide</p>
                   </div>
                   <Button className="rounded-full" size="icon" variant="ghost">
                     <EllipsisVerticalIcon className="h-5 w-5" />
                     <span className="sr-only">More</span>
                   </Button>
+                  
                 </div>
+                
+                <div>
+                
+          </div>
+         
+            
+          
+          </div>
               </div>
+              <div> <LineChart className="aspect-[6/2] text-white" /> </div>
+              
             </CardContent>
+            
           </Card>
           <div className="grid grid-cols-3">
           <Card className="w-[70vh]">
@@ -106,7 +122,9 @@ export function HospitalHomePage() {
               <CardTitle>Patient Monitoring</CardTitle>
             </CardHeader>
             <CardContent>
-              //image
+            <div>
+                <Image src="/dash.jpg" alt="monitoring" width="450" height="350" className="rounded-xl" />
+            </div>
             </CardContent>
           </Card>
           <Card className="w-[70vh]">
@@ -114,9 +132,9 @@ export function HospitalHomePage() {
               <CardTitle>Diagnosis</CardTitle>
             </CardHeader>
             <CardContent className="grid grid-cols-1">
-              <button className="transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 p-4 rounded-lg">Malaria Detection</button>
-              <button className="transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 p-4 rounded-lg">Kidney Diagnosis</button>
-              <button className="transition-colors hover:bg-gray-100 dark:hover:bg-gray-800 p-4 rounded-lg">Liver Diagnosis</button>
+              <button className="transition-colors hover:bg-gray-100 hover:text-white dark:hover:bg-gray-800 p-4 rounded-lg bg-white dark:text-black m-2">Malaria Detection</button>
+              <button className="transition-colors hover:bg-gray-100 hover:text-white dark:hover:bg-gray-800 p-4 rounded-lg bg-white dark:text-black m-2">Kidney Diagnosis</button>
+              <button className="transition-colors hover:bg-gray-100 hover:text-white dark:hover:bg-gray-800 p-4 rounded-lg bg-white dark:text-black m-2">Liver Diagnosis</button>
 
             </CardContent>
           </Card>
@@ -188,6 +206,91 @@ function BellIcon(props) {
 }
 
 
+function LineChart(props) {
+    return (
+      <div {...props}>
+        <ResponsiveLine
+          data={[
+            {
+              id: "Desktop",
+              data: [
+                { x: "00:01", y: 5 },
+                { x: "00:02", y: 10 },
+                { x: "00:03", y: 72 },
+                { x: "00:04", y: 69 },
+                { x: "00:05", y: 25 },
+                { x: "00:06", y: 75 },
+              ],
+            },
+            {
+                id: "malaria",
+                data: [
+                  { x: "00:01", y: 0 },
+                  { x: "00:02", y: 25 },
+                  { x: "00:03", y:  10},
+                  { x: "00:04", y: 45 },
+                  { x: "00:05", y: 20 },
+                  { x: "00:06", y: 35 },
+                ],
+              },
+            {
+              id: "Mobile",
+              data: [
+                { x: "00:01", y: 25 },
+                { x: "00:02", y: 45 },
+                { x: "00:03", y: 59 },
+                { x: "00:04", y: 89 },
+                { x: "00:05", y:  39},
+                { x: "00:06", y: 79},
+              ],
+            },
+          ]}
+          margin={{ top: 10, right: 10, bottom: 40, left: 40 }}
+          xScale={{
+            type: "point",
+          }}
+          yScale={{
+            type: "linear",
+          }}
+          axisTop={null}
+          axisRight={null}
+          axisBottom={{
+            tickSize: 0,
+            tickPadding: 16,
+          }}
+          axisLeft={{
+            tickSize: 0,
+            tickValues: 5,
+            tickPadding: 16,
+          }}
+          colors={["#2563eb", "#e11d48","yellow"]}
+          pointSize={6}
+          useMesh={true}
+          gridYValues={6}
+          theme={{
+            tooltip: {
+              chip: {
+                borderRadius: "9999px",
+              },
+              container: {
+                fontSize: "12px",
+                textTransform: "capitalize",
+                borderRadius: "6px",
+              },
+            },
+            grid: {
+              line: {
+                stroke: "#f3f4f6",
+              },
+            },
+          }}
+          role="application"
+        />
+      </div>
+    )
+  }
+  
+  
 function EllipsisVerticalIcon(props) {
   return (
     <svg
