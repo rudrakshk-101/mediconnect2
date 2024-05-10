@@ -111,14 +111,14 @@ export default function DoctorList() {
             alt="Dr. John Doe"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://assets.lybrate.com/img/documents/doctor/dp/f2693b08303dbbbbb086e005c4266656/General-Physician-HarshaThakkaseela-Kurnool-7fc1a7.png"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. John Doe</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Rajiv Kapoor</h3>
           <p className="text-gray-500 mb-4">Diabetes Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -135,14 +135,14 @@ export default function DoctorList() {
             alt="Dr. Jane Smith"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNhWw3AmCCk5OiX5U1YHbext2D1T_Z10ct8YPMT7w9lQ&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Jane Smith</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Arjun Verma</h3>
           <p className="text-gray-500 mb-4">Cancer Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -159,14 +159,14 @@ export default function DoctorList() {
             alt="Dr. Michael Johnson"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://www.yashodahospitals.com/online-doctor-consultation/wp-content/uploads/2021/06/Dr-Harish-Kancharla.png"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Michael Johnson</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Vikram Prasad</h3>
           <p className="text-gray-500 mb-4">Thyroid Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -183,14 +183,14 @@ export default function DoctorList() {
             alt="Dr. Emily Davis"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKkPWIyUilO5lAqHMosAMwsYuw18XOEs8KZ0B5pU5Xw&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Emily Davis</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Anjali Patel</h3>
           <p className="text-gray-500 mb-4">Cardiology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -207,14 +207,14 @@ export default function DoctorList() {
             alt="Dr. Sarah Lee"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://shrimannhospitals.com/uploads/doctor/X5S03C7N1703312336.jpg"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Sarah Lee</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Alok Kumar</h3>
           <p className="text-gray-500 mb-4">Dermatology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -231,14 +231,14 @@ export default function DoctorList() {
             alt="Dr. David Kim"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0YCIdx84omElhDQ9p06WzX5dVmHqKscmnqW_mtzwd_w&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. David Kim</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Priya Sharma</h3>
           <p className="text-gray-500 mb-4">Orthopedic Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -255,14 +255,14 @@ export default function DoctorList() {
             alt="Dr. Lisa Chen"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgbIDDWwpSfekaQa7_PrISQrvPOZoQEhaA_B6vIKS3QA&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Lisa Chen</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Siddharth Banerjee</h3>
           <p className="text-gray-500 mb-4">Pediatric Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -279,14 +279,14 @@ export default function DoctorList() {
             alt="Dr. Robert Nguyen"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJxOm1nLC16N5h_SLzpZrDNo7VWmtCo8tSp5-LJ-sW_Q&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Robert Nguyen</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Rakesh Gupta</h3>
           <p className="text-gray-500 mb-4">Gastroenterology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -303,14 +303,14 @@ export default function DoctorList() {
             alt="Dr. Jessica Hernandez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXBKQeyfNjzHUfYrkdMlKWo70gzziFIAuvU8s1FlytK7konED_Qly0Q7-rZDaiC-1klQ&usqp=CAU"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Jessica Hernandez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Neha Desai</h3>
           <p className="text-gray-500 mb-4">Neurology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -327,14 +327,15 @@ export default function DoctorList() {
             alt="Dr. Sophia Martinez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfXBKQeyfNjzHUfYrkdMlKWo70gzziFIAuvU8s1FlytK7konED_Qly0Q7-rZDaiC-1klQ&usqp=CAU"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG7n4kuX80tPdYlLTHJn1QuUn_atQ0Mn9dLKtYoj1IEQ&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Sophia Martinez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Maya Singh</h3>
           <p className="text-gray-500 mb-4">Psychiatry Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -351,14 +352,14 @@ export default function DoctorList() {
             alt="Dr. Christopher Gonzalez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu-Q-TxnOZRT2WIh5zvDCkTBa9-A1TBM113t18fHvKONRsutPrvsg2HlaR5eTlk1c6DVo&usqp=CAU"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Christopher Gonzalez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Deepak Shah</h3>
           <p className="text-gray-500 mb-4">Urology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -375,14 +376,14 @@ export default function DoctorList() {
             alt="Dr. Olivia Ramirez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://cdn-hnfjj.nitrocdn.com/nCtKukYfIAYyNALvNtcpBxWXBtMFrunD/assets/images/optimized/rev-508c900/simplihealth.in/wp-content/uploads/2021/05/Dr.-Nimisha-Batra.jpg"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Olivia Ramirez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Reena Khanna</h3>
           <p className="text-gray-500 mb-4">Obstetrics & Gynecology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -399,14 +400,14 @@ export default function DoctorList() {
             alt="Dr. Olivia Ramirez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://assets.lybrate.com/img/documents/doctor/dp/c86000cb8eeaeca56b1922191a097d63/Ear-Nose-Throat-ENT--VivekKumarPathak-noida-f4960d.jpg"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Olivia Ramirez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Manish Joshi</h3>
           <p className="text-gray-500 mb-4">Obstetrics & Gynecology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
@@ -423,14 +424,14 @@ export default function DoctorList() {
             alt="Dr. Olivia Ramirez"
             className="rounded-full mb-4"
             height={120}
-            src="/placeholder.svg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkKkg5VXlg-6mAEsksf6_Au64bEV0-70LkDlo3S5S50g&s"
             style={{
               aspectRatio: "120/120",
               objectFit: "cover",
             }}
             width={120}
           />
-          <h3 className="text-xl font-bold mb-2">Dr. Olivia Ramirez</h3>
+          <h3 className="text-xl font-bold mb-2">Dr. Pooja Mehta</h3>
           <p className="text-gray-500 mb-4">Obstetrics & Gynecology Specialist</p>
           <div className="flex items-center mb-4">
             <StarIcon className="text-yellow-500 mr-1" />
