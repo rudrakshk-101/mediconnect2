@@ -9,7 +9,7 @@ export function Selection() {
         <div className="text-4xl font-bold typewriter">I am a..</div>
         <p className="text-gray-500 dark:text-gray-400">Select your role</p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+      <div className="grid grid-cols-4 sm:grid-cols-4 gap-6">
         <div className="group relative h-[300px] w-[300px] overflow-hidden rounded-lg">
          <Link href='/home'>
           <div className="absolute inset-0 bg-gray-900 opacity-0 transition-opacity duration-300 group-hover:opacity-80" />
@@ -46,6 +46,28 @@ export function Selection() {
             className="h-full w-full object-cover"
             height="300"
             src="/doctor.png"
+            style={{
+              aspectRatio: "300/300",
+              objectFit: "cover",
+            }}
+            width="300"
+          />
+          </Link>
+        </div>
+        <div className="group relative h-[300px] w-[300px] overflow-hidden rounded-lg">
+        <Link href='/home'>
+          <div className="absolute inset-0 bg-gray-900 opacity-0 transition-opacity duration-300 group-hover:opacity-80" />
+          <div className="absolute inset-0 flex items-center justify-center p-6 text-center text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+            <div className="space-y-2">
+              <h3 className="text-2xl font-bold">HOSPITAL</h3>
+              <p>Hospital</p>
+            </div>
+          </div>
+          <img
+            alt="Card 2"
+            className="h-full w-full object-cover"
+            height="300"
+            src="/hospital.jpg"
             style={{
               aspectRatio: "300/300",
               objectFit: "cover",
