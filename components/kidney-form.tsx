@@ -104,7 +104,7 @@ export function KidneyForm() {
         <Label htmlFor="pdf-upload">Upload PDF (Optional)</Label>
         <Input accept="application/pdf" id="pdf-upload" type="file"  />
       </div>
-          <Button onClick={handleSubmit} className="w-full bg-white text-gray-400 hover:bg-gray-900 hover:text-white">Assess Risk</Button>
+          <Button onClick={handleSubmit} className="w-full bg-white text-gray-400 hover:bg-gray-900 hover:text-black">Assess Risk</Button>
         </CardContent>
       </Card>
     </div>
