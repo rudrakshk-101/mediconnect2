@@ -34,7 +34,7 @@ export function KidneyForm() {
         <CardHeader>
           <CardTitle className="text-white">Kidney Diagnosis</CardTitle>
           <CardDescription className="text-white">
-            Enter the patient's information to assess the risk of disease.
+            Enter the patient&apos;s information to assess the risk of disease.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">

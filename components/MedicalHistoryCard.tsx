@@ -7,7 +7,7 @@ export default function MedicalHistoryCard() {
     <Card key="1" className="m-[2vw] border-green-600 border-[2px] rounded-xxl h-[42vw]">
       <CardHeader className=" align-middle items-center">
         <CardTitle className=" text-blue-400 text-4xl font-monospaced">Medical History</CardTitle>
-        <CardDescription>Patient's medical history and prescription details</CardDescription>
+        <CardDescription>Patient&apos;s medical history and prescription details</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="grid grid-cols-1  gap-4">

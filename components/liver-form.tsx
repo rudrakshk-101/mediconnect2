@@ -34,7 +34,7 @@ export function LiverForm() {
         <CardHeader>
           <CardTitle className="text-white">Liver Diagnosis</CardTitle>
           <CardDescription className="text-white">
-            Enter the patient's information to assess the risk of Liver infection.
+            Enter the patient&apos;s information to assess the risk of Liver infection.
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">

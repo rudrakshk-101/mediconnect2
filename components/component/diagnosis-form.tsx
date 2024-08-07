@@ -23,7 +23,7 @@ export function DiagnosisForm() {
     <div className="space-y-6 w-[47vw] border border-gray-600 rounded-xl">
     <div className="space-y-2 text-center m-6">
       <h1 className="text-3xl font-bold text-blue-400" >Patient Diagnosis</h1>
-      <p className="text-gray-500 dark:text-gray-400">Upload your patient's diagnosis, disease, and medication.</p>
+      <p className="text-gray-500 dark:text-gray-400">Upload your patient&apos;s diagnosis, disease, and medication.</p>
     </div>
     <div className=" grid grid-cols-2 gap-4 m-[5vh]">
       <div className="gap-4">
@@ -40,7 +40,7 @@ export function DiagnosisForm() {
         <Label htmlFor="diagnosis">Aadhar Number</Label>
         <Input id="aadharNumber" value={aadharNumber} onChange={(e) => {
           setAadharNumber(e.target.value);
-        }} placeholder="Enter Patient's Aadhar Number" required />
+        }} placeholder="Enter Patient&apos;s Aadhar Number" required />
       </div>
       <div className=" w-[45vh] max-w-[45vh]">
         <Label htmlFor="disease">Disease</Label>
