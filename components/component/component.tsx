@@ -9,7 +9,7 @@ export function Component() {
     <Card className="w-full max-w-md bg-gradient-to-br from-gray-400 to-gray-900 text-white">
       <CardHeader className="space-y-2">
         <CardTitle className="text-2xl font-bold text-white">Book Appointment</CardTitle>
-        <CardDescription><span className="text-gray-200">Choose how you'd like to meet with your doctor.</span></CardDescription>
+        <CardDescription><span className="text-gray-200">Choose how you&apos;d like to meet with your doctor.</span></CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="grid grid-cols-2 gap-4">
